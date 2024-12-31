@@ -3,6 +3,31 @@
   <head>
     <link rel=”icon” href=”/favicon.ico” type=”image/x-icon”>
     <title>Тапатель</title>
+    <style>
+            ul.nav{
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            .nav li { 
+                float: left;
+            }
+            ul.nav a {
+                display: block;
+                width: 5em;
+                padding:10px;
+                margin: 0 5px;
+                background-color: #f4f4f4;
+                border: 1px dashed #333;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        </style>
   </head>
   <body>
     <div class = "header">
@@ -10,9 +35,12 @@
         
       </div>
       <div class = "header-menu">
-        <button type="button" onclick="document.location='/'">Главная</button>
-        <p>&nbsp &nbsp &nbsp</p>
-        <button type="button" onclick="document.location='/как-играть.html'">Как играть</button>
+        <ul class="nav">
+            <li><a href="#">Главная</a></li>
+            <li><a href="/как-играть.html">Как играть</a></li>
+            <li><a href="что-получу.html">А что я получу?</a></li>
+            <li><a href="о-боте.html">О боте</a></li>
+        </ul>
       </div>
       <hr>
     </div>
