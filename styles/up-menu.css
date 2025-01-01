@@ -80,6 +80,7 @@
   background-color: #ced3ed;
 }
 .button-main-container2 {
+  appearance: none;
   padding-left: 30px;
   padding-right: 30px;
   background: #334EE8;
