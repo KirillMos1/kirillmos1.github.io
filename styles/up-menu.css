@@ -57,3 +57,22 @@
 @media (max-width: 600px) {
 .menu-main li {display: block;}
 }
+.main-container1 {
+  background-color: #ced3ed;
+}
+.title-main-container1 {
+  font-family: font-family: 'Arimo', sans-serif;
+  font-size: 40;
+}
+.text1-main-container1 {
+  font-family: font-family: 'Arimo', sans-serif;
+  font-size: 25;
+}
+.text-faq-main-container1 {
+  font-family: font-family: 'Arimo', sans-serif;
+  font-size: 20;
+}
+.qa-faq-main-container1 {
+  font-family: font-family: 'Arimo', sans-serif;
+  font-size: 18;
+}
