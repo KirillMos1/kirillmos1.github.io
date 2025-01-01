@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 .top-menu {
-  background: rgba(255,255,255,.5);
+  background: #ced3ed;
   box-shadow: 3px 0 7px rgba(0,0,0,.3);
   padding: 20px;
 }
@@ -75,4 +75,21 @@
 .qa-faq-main-container1 {
   font-family: 'Arimo', sans-serif;
   font-size: 18px;
+}
+.main-container2 {
+  background-color: #ced3ed;
+}
+.button-main-container2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #334EE8;
+  cursor: pointer;
+}
+.button-main-container2:hover {
+  background: #1d49aa;
+}
+
+.button-main-container2:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #b3c2e2;
 }
